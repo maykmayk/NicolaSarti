@@ -1,14 +1,18 @@
 @font-face {
-    font-family: "Nohemi";
-    src: url("../asset/font/Nohemi-Regular.ttf");
+    font-family: "Instrumental";
+    src: url("../asset/font/InstrumentSerif-Regular.ttf");
+}
+@font-face {
+    font-family: "InstrumentalSerif";
+    src: url("../asset/font/InstrumentSerif-Italic.ttf");
 }
 @font-face {
     font-family: "Neue";
     src: url("../asset/font/NeueHaasDisplay-Roman.ttf");
 }
 
-.noemi {
-  font-family: "Nohemi"; 
+.instrumental {
+  font-family: "Instrumental"; 
 }
 
 :root {
