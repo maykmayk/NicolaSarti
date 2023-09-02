@@ -6,6 +6,10 @@
     font-family: "IBMPlex";
     src: url("../asset/font/IBMPlexMono-Regular.ttf");
 }
+@font-face {
+    font-family: "IBMPlexItalic";
+    src: url("../asset/font/IBMPlexMono-Italic.ttf");
+}
 
 .instrumental {
   font-family: "Instrumental"; 
@@ -19,6 +23,10 @@
     --white: #fff;
 }
 
+::selection{
+  color: var(--orange);
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -30,8 +38,19 @@ body {
   color: var(--black);
 }
 
+.ibmItalic {
+  font-family: "IBMPlexItalic";
+}
+
 .containerMain{
   padding: 1.8rem /*!main_margin*/
+}
+
+.stickySideBar {
+  overflow: auto;
+  /* position: -webkit-sticky; */
+  position: sticky;
+  top: 1.8rem;
 }
 
 .orange{
@@ -48,7 +67,7 @@ body {
 }
 
 .ibmMonoSmall{
-  font-family: "IBMPlex";
+  font-family: "IBMPlexItalic";
   display: inline-block;
   font-size: .6rem;
   line-height: 1.9;
@@ -85,6 +104,10 @@ body {
   line-height: 1.1;
   letter-spacing: -0.05rem;
   color: rgba(0, 0, 0, 0.85);
+}
+
+.activeWork{
+  color: var(--orange);
 }
 
 .divider{
