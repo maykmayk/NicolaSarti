@@ -38,6 +38,16 @@ function loadWorkDetails(workId) {
                 "./asset/images/zeinta/IMG_4361 copia.jpg",
             ],
         },
+		photoShoot: {
+			title: "Photo Shoot",
+			headImg:"./asset/images/photoShoot/Photoshoot_Nico_clothes008.jpg",
+            text: "Al giorno d’oggi ha luogo la scomparsa di ciò che ci sta di fronte: la totale assenza di un “essere contro” non rappresenta una condizione ideale, poichè senza questo scontro si ricade dolorosamente su sé stessi.",
+            images: [
+                "./asset/images/photoShoot/Photoshoot_Nico_clothes009.jpg",
+                "./asset/images/photoShoot/Photoshoot_Nico_clothes011.jpg",
+                "./asset/images/photoShoot/Photoshoot_Nico_clothes012.jpg",
+            ],
+        },
     }
 
 	const work = workDetails[workId];
