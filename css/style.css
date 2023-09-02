@@ -51,6 +51,7 @@ body {
   /* position: -webkit-sticky; */
   position: sticky;
   top: 1.8rem;
+  height: 100vh;
 }
 
 .orange{
@@ -133,5 +134,9 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-    
+    .stickySideBar{
+      overflow:initial;
+      position:relative;
+      height: auto;
+    }
 }
