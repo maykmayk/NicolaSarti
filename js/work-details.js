@@ -22,7 +22,7 @@ function loadWorkDetails(workId) {
                 "./asset/images/borse/_MG_2817 copia.jpg",
                 "./asset/images/borse/_MG_2817.jpg",
                 "./asset/images/borse/_MG_2834.jpg",
-            ], 
+            ],
         },
 		zeintaAdMer: {
 			title: "Zeinta Ad Mer",
@@ -39,8 +39,7 @@ function loadWorkDetails(workId) {
                 "./asset/images/zeinta/nnn.jpg",
                 "./asset/images/zeinta/nnnnnnnn.jpg",
                 "./asset/images/zeinta/v968-17d-02-mockup.png",
-                "../asset/images/zeinta/II.jpg",
-            ], 
+            ],
         },
     }
 
@@ -49,11 +48,10 @@ function loadWorkDetails(workId) {
 		const workDetailsContainer = document.getElementById("workDetailsContainer");
 
         let imagesHtml = '';
-        // Genera il markup HTML per le immagini
         if (work.images && work.images.length > 0) {
             for (let i = 0; i < work.images.length; i++) {
                 imagesHtml += `
-                    <div class="col-6 workGalleryCont"><img src="${work.images[i]}" class="imgFit"></div>
+                    <div class="col-6 workGalleryCont"><img src="${work.images[i]}" loading="lazy" class="imgFit"></div>
                 `;
             }
         }
