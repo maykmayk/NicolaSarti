@@ -26,19 +26,16 @@ function loadWorkDetails(workId) {
         },
 		zeintaAdMer: {
 			title: "Zeinta Ad Mer",
-			headImg:"./asset/images/zeinta/v968-17dg-02-mockup.png",
+			headImg:"./asset/images/zeinta/IMG_2195 mod.jpg",
             text: "Al giorno d’oggi ha luogo la scomparsa di ciò che ci sta di fronte: la totale assenza di un “essere contro” non rappresenta una condizione ideale, poichè senza questo scontro si ricade dolorosamente su sé stessi.",
             images: [
-                "./asset/images/zeinta/Brusiness_Card_Mockup_009.jpg",
-                "./asset/images/zeinta/Busbbiness_Card_Mockup_009.jpg",
-                "./asset/images/zeinta/Business_Card_Mockup_008-e.jpg",
-                "./asset/images/zeinta/Business_Card_Mockup_009.jpg",
-                "./asset/images/zeinta/Business_Ccard_Mockup_009.jpg",
-                "./asset/images/zeinta/Buuusiness_Card_Mockup_009.jpg",
-                "./asset/images/zeinta/II.jpg",
-                "./asset/images/zeinta/nnn.jpg",
-                "./asset/images/zeinta/nnnnnnnn.jpg",
-                "./asset/images/zeinta/v968-17d-02-mockup.png",
+                "./asset/images/zeinta/31-IMG_2144.jpg",
+                "./asset/images/zeinta/28-IMG_2115.jpg",
+                "./asset/images/zeinta/IMG_2148 mod.jpg",
+                "./asset/images/zeinta/27-IMG_2109.jpg",
+                "./asset/images/zeinta/IMG_1872.jpg",
+                "./asset/images/zeinta/49-IMG_2012-Edit-Edit.jpg",
+                "./asset/images/zeinta/IMG_4361 copia.jpg",
             ],
         },
     }
@@ -60,10 +57,10 @@ function loadWorkDetails(workId) {
             <img src="${work.headImg}"class="imgFit">
         </div>
         <div class="row d-flex mt-4">
-            <div class="col-md-4 col-12">
+            <div class="col-md-5 col-12">
                 <div class="titleWorkDetail">${work.title}</div>
             </div>
-            <div class="col-md-2"></div>
+            <div class="col-md-1"></div>
             <div class="col-md-6 col-12">
                 <div class="ibmMonoSmall ibmItalic">
                     ${work.text}

@@ -135,6 +135,7 @@ body {
 
 @media screen and (max-width: 767px) {
     .stickySideBar{
+      top:initial;
       overflow:initial;
       position:relative;
       height: auto;
