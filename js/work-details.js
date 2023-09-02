@@ -63,11 +63,11 @@ function loadWorkDetails(workId) {
             <img src="${work.headImg}"class="imgFit">
         </div>
         <div class="row d-flex mt-4">
-            <div class="col-4">
-                <div class="title">${work.title}</div>
+            <div class="col-md-4 col-12">
+                <div class="titleWorkDetail">${work.title}</div>
             </div>
-            <div class="col-2"></div>
-            <div class="col-6">
+            <div class="col-md-2"></div>
+            <div class="col-md-6 col-12">
                 <div class="ibmMonoSmall">
                     ${work.text}
                 </div>
