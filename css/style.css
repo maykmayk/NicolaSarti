@@ -1,14 +1,10 @@
 @font-face {
-    font-family: "Instrumental";
-    src: url("../asset/font/InstrumentSerif-Regular.ttf");
+    font-family: "Sorts";
+    src: url("../asset/font/SortsMillGoudy-Regular.ttf");
 }
 @font-face {
-    font-family: "InstrumentalSerif";
-    src: url("../asset/font/InstrumentSerif-Italic.ttf");
-}
-@font-face {
-    font-family: "Neue";
-    src: url("../asset/font/NeueHaasDisplay-Roman.ttf");
+    font-family: "IBMPlex";
+    src: url("../asset/font/IBMPlexMono-Regular.ttf");
 }
 
 .instrumental {
@@ -23,48 +19,85 @@
     --white: #fff;
 }
 
-body {
-    font-family: "Neue";
-    letter-spacing: -.5px;
-    background-color: var(--orange);
-    color: var(--black);
-}
-
 a {
-    color: inherit;
-    text-decoration: none;
+  text-decoration: none;
+  color: inherit;
 }
 
-span {
-    color: var(--lime);
+body {
+  font-family: "Sorts";
+  background-color: var(--white);
+  color: var(--black);
 }
 
-.effect-three > a {
-    display: inline-block;
-    position: relative;
-  }
-  .effect-three > a:after {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 0;
-    bottom: 0;
-    height: 2px;
-    margin: 3px 0;
-    left: 0;
-    background-color: var(--lime);
-    transition: all 0.4s ease-in 0s;
-  }
-  .effect-three > a:hover:after {
-    width: 100%;
-  }
-
-.fa{
-    transition: color 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+.containerMain{
+  padding: 1.8rem /*!main_margin*/
 }
 
-  .fa:hover {
-    color: var(--lime);
+.orange{
+  color: var(--orange);
+}
+
+.ibmMonoMain{
+  font-family: "IBMPlex";
+  display: inline-block;
+  font-size: .8rem;
+  line-height: 1.9;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.ibmMonoSmall{
+  font-family: "IBMPlex";
+  display: inline-block;
+  font-size: .6rem;
+  line-height: 1.9;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  font-size: 1.8rem;
+  line-height: 1.1;
+  letter-spacing: -0.1rem;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.titleWork {
+  font-style: normal;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 1.1;
+  letter-spacing: -0.05rem;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.divider{
+  height: 20vh;
+}
+
+.mainImgCont{
+  aspect-ratio: 9/12;
+}
+
+.imgFit {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.workHeaderImgCont{
+  aspect-ratio: 16/9;
+}
+
+.workGalleryCont{
+  aspect-ratio: 1/1;
 }
 
 @media screen and (max-width: 767px) {
